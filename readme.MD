@@ -6,6 +6,7 @@
     - [2. Configure VSCode](#2.-Configure-VSCode)
         - [2.1 Configuring Workspace](#21-configuring-workspace)
         - [2.2 Create launch.json file](#22-create-launchjson-file)
+    - [3. Debug plugin](#3-debug-plugin)
 
 ## Usage
 
@@ -30,6 +31,13 @@
         self.debugpy.configure(python = 'python3') # New line
     except:
         pass
+    ```
+
+5. Install pydebug module. Open C:\Program Files\QGIS 3.32.2\OSGeo4W.bat and call:
+
+    ```
+    pip3 install debugpy
+    pip3 install pyqt5-stubs # not neccesary
     ```
 
 ### 2. Configure VSCode
